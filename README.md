@@ -2,13 +2,13 @@
 
 <img src="model.png" width="1100">
 
-This repository provides the reference implementation of QGRNN, a hybrid quantum–classical graph residual neural network developed to enhance node representation learning.
+This repository provides the reference implementation of QGRNN, a hybrid quantum–classical graph residual neural network designed to enhance node representation learning through targeted quantum augmentation.
 
-QGRNN contains four key components:
+QGRNN consists of four core components:
+- Structure-driven node selection, identifying non-central (marginal) nodes for quantum enhancement
+- A GAT-based classical encoder, extracting structural and semantic features
+- A parametrized quantum circuit (PQC) providing nonlinear expressive transformations
+- A gated residual fusion mechanism, adaptively integrating classical and quantum embeddings.
 
-- A structure-driven node selection mechanism,
-- A GAT-based classical feature extractor,
-- A parametrized quantum circuit (PQC) module for targeted nonlinear enhancement,
-- A gated residual fusion mechanism that adaptively combines classical and quantum embeddings.
-
-This implementation presents the complete design of QGRNN and illustrates its workflow on a node classification task, using the Cora dataset as a representative example.
+The codebase includes the complete architectural design and training pipeline of QGRNN.
+For illustration and reproducibility, we provide a fully runnable example on the Cora node classification task.
