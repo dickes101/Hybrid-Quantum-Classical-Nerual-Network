@@ -4,7 +4,7 @@
 
 This repository provides the reference implementation of QGRNN, a hybrid quantum–classical graph residual neural network developed to enhance node representation learning.
 
-QGRNN integrates four key components:
+QGRNN contains four key components:
 
 - A structure-driven node selection mechanism,
 - A GAT-based classical feature extractor,
