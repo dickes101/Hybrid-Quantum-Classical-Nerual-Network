@@ -8,4 +8,3 @@ QGRNN integrates three key components:
 - A gated residual fusion mechanism that adaptively combines classical and quantum embeddings.
 
 This implementation includes the complete architectural design of QGRNN and demonstrates its end-to-end training workflow on the Cora node classification task.
----
