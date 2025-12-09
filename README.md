@@ -1,6 +1,6 @@
 # QGRNN: Feature Fusion-Based Hybrid Quantum-Classical Graph Residual Neural Network
 
-<img src="model.png" width="450">
+<img src="model.png" width="900">
 
 This repository provides the reference implementation of QGRNN, a hybrid quantum–classical graph residual neural network developed to enhance node representation learning.
 
