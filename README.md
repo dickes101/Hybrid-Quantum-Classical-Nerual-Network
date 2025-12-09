@@ -8,4 +8,4 @@ QGRNN integrates four key components:
 - A parametrized quantum circuit (PQC) module for targeted nonlinear enhancement,
 - A gated residual fusion mechanism that adaptively combines classical and quantum embeddings.
 
-This implementation includes the complete architectural design of QGRNN and demonstrates its end-to-end training workflow on the Cora node classification task.
+This implementation presents the complete design of QGRNN and illustrates its workflow on a node classification task, using the Cora dataset as a representative example.
